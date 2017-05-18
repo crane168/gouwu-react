@@ -1,0 +1,175 @@
+// 定义css3动画
+.loader {
+	// 居中
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -5em;
+	width: 11em;
+	height: 11em;
+	// background: green;
+	transform: rotate(45deg);
+	// 定义伪元素
+	&:after,
+	&:before {
+		content: '';
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		width: 11em;
+		height: 11em;
+		border-radius: .5em;
+		transform: translate(-50%, -50%);
+	}
+	// 垂直方向
+	&:after {
+		width: 1em;
+		// background: gold;
+		animation: moveafter 2s infinite;
+		// 设置投影
+		// box-shadow: -3em 0 #c9f0fc, 3em 0 #f4a7c4;
+		// 改变长度就是改变高度
+		// height: 1em;
+		// // 改变位置， 移动5em
+		// box-shadow: -3em 5em #c9f0fc, 3em -5em #f4a7c4;
+		// 换个方向
+		// height: 1em;
+		// box-shadow: -3em -5em #c9f0fc, 3em 5em #f4a7c4;
+	}
+	// 水平方向
+	&:before {
+		height: 1em;
+		// background: purple;
+		animation: movebefore 2s infinite;
+		// 设置投影
+		// box-shadow: 0 3em #b3e5d5, 0 -3em #f7dfac;
+		// 改变长度就是改变宽度
+		// width: 1em;
+		// // 改变位置，移动5em
+		// box-shadow: 5em 3em #b3e5d5, -5em -3em #f7dfac;
+		// 换个方向
+		// width: 1em;
+		// box-shadow: -5em 3em #b3e5d5, 5em -3em #f7dfac;
+	}
+}
+.loader-text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -8em;
+	margin-left: -4em;
+	font-size: 20px;
+}
+.app-header {
+	input {
+		margin-top: 10px;
+		padding: 5px 10px;
+	}
+	.nav a {
+		padding: 15px;
+		&:hover,
+		&:focus {
+			background: none;
+		}
+	}
+	.banner {
+		height: 550px;
+	}
+	.banner-1 {
+		background: url(../img/banner/banner1.jpg) no-repeat center 5%;
+		background-size: 100%;
+	}
+	.banner-2 {
+		background: url(../img/banner/banner0.jpg) no-repeat center 5%;
+		background-size: 100%;
+	}
+}
+
+.page {
+	ul {
+		// 一共多2px，左边1px，右边1px，这样就居中了
+		// margin-right: -21px;
+		// margin-left: -1px;
+		padding: 0;
+		margin-right: -20px;
+		li {
+			list-style: none;
+			float: left;
+			// width: 278px;
+			width: 270px;
+			height: 200px;
+			margin: 20px 20px 0 0;
+			position: relative;
+		}
+		a {
+			color: #fff;
+			text-decoration: none;
+		}
+		.content {
+			width: 270px;
+			height: 200px;
+			display: table-cell;
+			vertical-align: middle;
+			h2 {
+				font-size: 38px;
+				text-align: center;
+				padding: 0 10px;
+			}
+		}
+		.layer {
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			background: rgba(0, 0, 0, .8);
+			padding: 40px 20px;
+			opacity: 0;
+		}
+		a:hover .layer {
+			opacity: 1;
+			transition: opacity 600ms;
+		}
+	}
+}
+
+// 定义关键帧
+@keyframes moveafter{
+	0% {
+		height: 1em;
+		box-shadow: -3em -5em #c9f0fc, 3em 5em #f4a7c4;
+	}
+	35% {
+		height: 11em;
+		box-shadow: -3em 0 #c9f0fc, 3em 0 #f4a7c4;
+	}
+	70% {
+		height: 1em;
+		// 改变位置， 移动5em
+		box-shadow: -3em 5em #c9f0fc, 3em -5em #f4a7c4;
+	}
+	100% {
+		height: 1em;
+		// 改变位置， 移动5em
+		box-shadow: -3em -5em #c9f0fc, 3em 5em #f4a7c4;
+	}
+}
+@keyframes movebefore{
+	0% {
+		width: 1em;
+		box-shadow: -5em 3em #b3e5d5, 5em -3em #f7dfac;
+	}
+	35% {
+		width: 11em;
+		box-shadow: 0 3em #b3e5d5, 0 -3em #f7dfac;
+	}
+	70% {
+		width: 1em;
+		// 改变位置，移动5em
+		box-shadow: 5em 3em #b3e5d5, -5em -3em #f7dfac;
+	}
+	100% {
+		width: 1em;
+		box-shadow: -5em 3em #b3e5d5, 5em -3em #f7dfac;
+	}
+}

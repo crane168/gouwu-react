@@ -1,0 +1,166 @@
+{
+	"errno": 0,
+	"data": [
+		{
+			"site": "https://www.taobao.com/",
+			"name": "淘宝网",
+			"company": "阿里巴巴",
+			"type": "mall",
+			"description": "商城网站"
+		},
+		{
+			"site": "https://www.amazon.cn",
+			"name": "亚马逊",
+			"company": "亚马逊",
+			"type": "mall",
+			"description": "商城网站"
+		},
+		{
+			"site": "http://www.dangdang.com/",
+			"name": "dangdang网",
+			"company": "dangdang",
+			"type": "mall",
+			"description": "商城网站"
+		},
+		{
+			"site": "http://www.yhd.com/",
+			"name": "1号店购物",
+			"company": "1号店",
+			"type": "mall",
+			"description": "商城网站"
+		},
+		{
+			"site": "http://www.sasa.com/",
+			"name": "莎莎网",
+			"company": "香港莎莎",
+			"type": "dressing",
+			"description": "化妆网站"
+		},
+		{
+			"site": "http://bj.jumei.com/",
+			"name": "聚美优品",
+			"company": "聚美",
+			"type": "dressing",
+			"description": "化妆网站"
+		},
+		{
+			"site": "http://www.lefeng.com/",
+			"name": "乐峰网",
+			"company": "乐峰",
+			"type": "dressing",
+			"description": "化妆网站"
+		},
+		{
+			"site": "http://www.vancl.com/",
+			"name": "凡客诚品",
+			"company": "凡客",
+			"type": "clothing",
+			"description": "服装网站"
+		},
+		{
+			"site": "https://www.m18.com",
+			"name": "卖网",
+			"company": "卖网",
+			"type": "clothing",
+			"description": "服装网站"
+		},
+		{
+			"site": "http://www.uniqlo.cn/",
+			"name": "优衣库",
+			"company": "优衣库",
+			"type": "clothing",
+			"description": "服装网站"
+		},
+		{
+			"site": "http://store.lining.com/",
+			"name": "李宁服装",
+			"company": "李宁",
+			"type": "clothing",
+			"description": "服装网站"
+		},
+		{
+			"site": "http://www.yougou.com/",
+			"name": "优购网",
+			"company": "优购",
+			"type": "shoes",
+			"description": "鞋子网站"
+		},
+		{
+			"site": "http://www.ezeroshop.com/",
+			"name": "零度",
+			"company": "零度",
+			"type": "shoes",
+			"description": "鞋子网站"
+		},
+		{
+			"site": "http://www.vsnoon.com/",
+			"name": "维思诺",
+			"company": "维思诺",
+			"type": "shoes",
+			"description": "鞋子网站"
+		},
+		{
+			"site": "http://www.taoxie.com/",
+			"name": "淘鞋网",
+			"company": "淘鞋网",
+			"type": "shoes",
+			"description": "鞋子网站"
+		},
+		{
+			"site": "http://www.mbaobao.com/",
+			"name": "麦包包",
+			"company": "麦包包",
+			"type": "bag",
+			"description": "箱包网站"
+		},
+		{
+			"site": "http://www.uiyi.cn/",
+			"name": "佑一良品",
+			"company": "佑一良品",
+			"type": "bag",
+			"description": "箱包网站"
+		},
+		{
+			"site": "http://www.utcbag.com/",
+			"name": "行家网",
+			"company": "行家",
+			"type": "bag",
+			"description": "箱包网站"
+		},
+		{
+			"site": "http://www.yodo.cn/",
+			"name": "悠度网",
+			"company": "悠度",
+			"type": "bag",
+			"description": "箱包网站"
+		},
+		{
+			"site": "https://www.m6go.com/",
+			"name": "麦乐购网",
+			"company": "麦乐购",
+			"type": "children",
+			"description": "母婴网站"
+		},
+		{
+			"site": "http://www.muyingzhijia.com/",
+			"name": "母婴之家",
+			"company": "母婴之家",
+			"type": "children",
+			"description": "母婴网站"
+		},
+		{
+			"site": "http://www.baoyeah.com/",
+			"name": "梦芭莎网",
+			"company": "梦芭莎",
+			"type": "children",
+			"description": "母婴网站"
+		},
+		{
+			"site": "http://www.yodo.cn/",
+			"name": "悠度网",
+			"company": "悠度",
+			"type": "children",
+			"description": "母婴网站"
+		}
+	]
+}
